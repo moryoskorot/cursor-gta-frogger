@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Trebuchet MS", "Arial", sans-serif;
+  color: #d9e1ff;
+  background: radial-gradient(circle at top, #32204a 0%, #09080f 60%, #040407 100%);
+}
+
+.layout {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 16px 28px;
+}
+
+.hud-top h1 {
+  margin: 0;
+  letter-spacing: 0.04em;
+  color: #ff87e5;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin: 6px 0 14px;
+  color: #b8bbd0;
+}
+
+.hud-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 18px;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border: 1px solid #4e4f6f;
+  border-radius: 8px;
+  background: rgba(21, 24, 36, 0.88);
+}
+
+#muteBtn {
+  margin-left: auto;
+  border: 1px solid #9099ff;
+  border-radius: 6px;
+  background: #1f2342;
+  color: #ebecff;
+  font-weight: 700;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+#muteBtn:hover {
+  filter: brightness(1.1);
+}
+
+#game {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  border: 2px solid #7278a4;
+  border-radius: 8px;
+  image-rendering: pixelated;
+  background: #11161a;
+}
+
+.instructions {
+  margin-top: 12px;
+  color: #a7acca;
+}
+
+.instructions h2 {
+  margin: 0 0 6px;
+  color: #ffd166;
+  font-size: 1.1rem;
+}
+
+.instructions p {
+  margin: 0;
+}

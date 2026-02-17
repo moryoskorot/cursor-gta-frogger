@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Run: Vice Delivery</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <header class="hud-top">
+        <h1>City Run: Vice Delivery</h1>
+        <p class="subtitle">
+          Frogger-style prototype: dodge traffic, run contraband, snatch cash.
+        </p>
+      </header>
+
+      <section class="hud-panel">
+        <div><strong>Score:</strong> <span id="score">0</span></div>
+        <div><strong>Lives:</strong> <span id="lives">3</span></div>
+        <div><strong>Cargo:</strong> <span id="cargo">None</span></div>
+        <div><strong>Deliveries:</strong> <span id="deliveries">0 / 5</span></div>
+        <button id="muteBtn" type="button">Mute Music: Off</button>
+      </section>
+
+      <canvas
+        id="game"
+        width="960"
+        height="640"
+        aria-label="City Run game canvas"
+      ></canvas>
+
+      <section class="instructions">
+        <h2>Controls</h2>
+        <p>Move with Arrow Keys or WASD. Press R to restart after game over.</p>
+      </section>
+    </main>
+
+    <script src="./game.js"></script>
+  </body>
+</html>
