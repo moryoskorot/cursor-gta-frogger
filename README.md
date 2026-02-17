@@ -2,6 +2,8 @@
 
 A tiny GTA1-inspired Frogger-style browser game prototype.
 
+[Play it here](https://moryoskorot.github.io/cursor-gta-frogger/)
+
 This project was made in **one shot**, and I am **very pleased** with the result.
 It literally took less than **2-3 minutes**, and it is already **enjoyfully playable**.
 
